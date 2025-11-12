@@ -1,4 +1,4 @@
-# yt-x BSD wrapper
+# yt-x BSD wrapper 📺
 
 *BSD wrapper for yt-x project.
 
