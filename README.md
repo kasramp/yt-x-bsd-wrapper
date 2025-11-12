@@ -7,7 +7,7 @@ Linux. However, it needs some tweaking to make it run on OpenBSD and FreeBSD. Th
 goal of this project is wrap the yt-x to make sure BSD users can use it without
 much of tinkering.
 
-## Install dependencies
+## Dependencies
 
 ### OpenBSD
 
@@ -19,4 +19,12 @@ $ doas pkg_add bash jq curl yt-dlp fzf mpv ffmpeg ggrep gsed chafa noto-nerd-fon
 
 ```bash
 $ sudo pkg install XXX
+```
+
+## Installation
+
+Just run the below command:
+
+```bash
+$ 
 ```
