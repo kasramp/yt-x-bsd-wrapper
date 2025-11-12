@@ -21,7 +21,7 @@ $ doas pkg_add bash jq curl yt-dlp fzf mpv ffmpeg ggrep gsed chafa noto-nerd-fon
 ### FreeBSD
 
 ```bash
-$ sudo pkg install XXX
+$ sudo pkg install bash jq curl yt-dlp fzf mpv ffmpeg gnugrep gsed chafa nerd-fonts
 ```
 
 ## Installation
