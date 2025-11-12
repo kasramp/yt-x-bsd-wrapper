@@ -6,6 +6,10 @@
 
 This project provides a lightweight wrapper that adapts yt-x for OpenBSD and FreeBSD, handling the necessary compatibility fixes so BSD users can enjoy the same experience without extra setup or tinkering.
 
+<p align="center">
+  <img width="900" height="500" src="https://github.com/kasramp/yt-x-bsd-wrapper/blob/master/assets/screenshot.jpg">
+</p>
+
 ## Dependencies
 
 ### OpenBSD
