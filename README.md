@@ -26,5 +26,11 @@ $ sudo pkg install XXX
 Just run the below command:
 
 ```bash
-$ 
+$ curl -fsSL https://raw.githubusercontent.com/kasramp/yt-x-bsd-wrapper/refs/heads/master/install.sh | sh
+```
+
+## Uninstallation
+
+```bash
+$ rm -rf "$HOME/.local/bin/youtube" "$HOME/.local/share/yt-x/"
 ```
