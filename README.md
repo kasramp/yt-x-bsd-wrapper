@@ -2,10 +2,9 @@
 
 *BSD wrapper for yt-x project.
 
-The [yt-x](https://github.com/Benexl/yt-x) allows watching YouTube from command line and works flawlessly on
-Linux. However, it needs some tweaking to make it run on OpenBSD and FreeBSD. The
-goal of this project is wrap the yt-x to make sure BSD users can use it without
-much of tinkering.
+[yt-x](https://github.com/Benexl/yt-x) is a command-line tool that lets you watch YouTube directly from your terminal — it works flawlessly on Linux, but requires a few tweaks to run smoothly on BSD systems.
+
+This project provides a lightweight wrapper that adapts yt-x for OpenBSD and FreeBSD, handling the necessary compatibility fixes so BSD users can enjoy the same experience without extra setup or tinkering.
 
 ## Dependencies
 
