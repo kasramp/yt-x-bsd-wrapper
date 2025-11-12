@@ -1,0 +1,23 @@
+#!/usr/local/bin/bash
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# sed → gsed if available
+if command -v gsed >/dev/null 2>&1; then
+    sed() { gsed "$@"; }
+fi
+
+# tac → gtac or tail -r fallback
+if command -v gtac >/dev/null 2>&1; then
+    tac() { gtac "$@"; }
+else
+    tac() { tail -r "$@"; }
+fi
+
+# grep → ggrep fallback
+if command -v ggrep >/dev/null 2>&1; then
+    grep() { ggrep "$@"; }
+fi
+
+source ./yt-x "$@"
